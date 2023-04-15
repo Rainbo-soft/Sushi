@@ -36,7 +36,9 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
                         name="Sauce"
                         value="Wasabi"
                       />
-                      <label htmlFor="Wasabi">Wasabi</label>
+                      <label className="ml-1" htmlFor="Wasabi">
+                        Wasabi
+                      </label>
                       <br />
                       <input
                         type="radio"
@@ -44,7 +46,9 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
                         name="Sauce"
                         value="Gember"
                       />
-                      <label htmlFor="Gember">Gember</label>
+                      <label className="ml-1" htmlFor="Gember">
+                        Gember
+                      </label>
                       <br />
                       <input
                         type="radio"
@@ -52,7 +56,9 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
                         name="Sauce"
                         value="Soy sauce sweet"
                       />
-                      <label htmlFor="Soy sauce sweet">Soy sauce sweet</label>
+                      <label className="ml-1" htmlFor="Soy sauce sweet">
+                        Soy sauce sweet
+                      </label>
                       <br />
                       <input
                         type="radio"
@@ -60,7 +66,9 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
                         name="Sauce"
                         value="Soy sauce salt"
                       />
-                      <label htmlFor="Soy sauce salt">Soy sauce salt</label>
+                      <label className="ml-1" htmlFor="Soy sauce salt">
+                        Soy sauce salt
+                      </label>
                     </div>
                   </div>
                   <button
