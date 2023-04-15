@@ -163,7 +163,6 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
           </div>
         </>
       ))}
-      {/* <Modal /> */}
     </div>
   );
 };
