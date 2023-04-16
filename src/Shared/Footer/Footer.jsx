@@ -18,7 +18,7 @@ const Footer = () => {
         ></iframe>
       </div>
       <div className="py-10 bg-red-500 text-white">
-        <p className="text-2xl text-center my-5 font-bold underline underline-offset-8">
+        <p className="text-2xl text-center mb-8 font-bold underline underline-offset-8 Kurale">
           Opening Hour
         </p>
         <ul className="flex items-center justify-around text-xl font-semibold">
