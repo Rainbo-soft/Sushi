@@ -45,7 +45,7 @@ const Home = () => {
         }}
       >
         <p className="absolute -top-3 -right-3 bg-slate-400/80 px-2 rounded-full">
-          0
+          2
         </p>
         <AiOutlineShoppingCart />
       </div>
