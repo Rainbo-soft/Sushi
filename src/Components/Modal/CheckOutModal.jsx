@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsFillTrashFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Modal = ({ closeCheckOutModal, showCheckOutModal }) => {
   return (
@@ -56,9 +57,12 @@ const Modal = ({ closeCheckOutModal, showCheckOutModal }) => {
                 </ul>
               </div>
               <div className="flex items-center justify-end mr-5 mt-5">
-                <button className="bg-[#22C55E] px-4 py-2 rounded-md text-white text-lg font-medium tracking-wider">
+                <Link
+                  to="/checkout"
+                  className="bg-[#22C55E] px-4 py-2 rounded-md text-white text-lg font-medium tracking-wider"
+                >
                   Checkout
-                </button>
+                </Link>
                 <button className="bg-red-500 ml-2 px-4 py-2 rounded-md text-white text-lg font-medium tracking-wider">
                   Clear
                 </button>
