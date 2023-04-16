@@ -12,9 +12,9 @@ const Footer = () => {
           width="100%"
           height="250"
           className="border-0"
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <div className="py-10 bg-red-500 text-white">
@@ -65,20 +65,20 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div class="bg-red-600">
-        <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
+      <div className="bg-red-600">
+        <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
           <Link href="/" className="text-3xl font-semibold text-white">
             Sushi
           </Link>
 
-          <p class="text-sm text-white capitalize">
+          <p className="text-sm text-white capitalize">
             © 2022 - 2023 Rainbosoft All Right Reserved
           </p>
 
-          <div class="flex -mx-2 items-center">
+          <div className="flex -mx-2 items-center">
             <Link
               href="/"
-              class="mx-2 text-white text-2xl transition-colors duration-300 hover:text-white/70"
+              className="mx-2 text-white text-2xl transition-colors duration-300 hover:text-white/70"
               aria-label="Reddit"
             >
               <AiFillRedditCircle />
@@ -86,7 +86,7 @@ const Footer = () => {
 
             <Link
               href="/"
-              class="mx-2 text-white text-2xl transition-colors duration-300 hover:text-white/70"
+              className="mx-2 text-white text-2xl transition-colors duration-300 hover:text-white/70"
               aria-label="Facebook"
             >
               <BsFacebook />
@@ -94,7 +94,7 @@ const Footer = () => {
 
             <Link
               href="/"
-              class="mx-2 text-white text-2xl transition-colors duration-300 hover:text-white/70"
+              className="mx-2 text-white text-2xl transition-colors duration-300 hover:text-white/70"
               aria-label="Github"
             >
               <BsInstagram />

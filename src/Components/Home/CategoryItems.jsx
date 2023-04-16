@@ -44,7 +44,7 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
       ],
     },
     {
-      category: "VOORGERECHTEN",
+      category: "CRISPY ROLL",
       Items: [
         {
           name: "Deep Fried Dragon Eyes",
