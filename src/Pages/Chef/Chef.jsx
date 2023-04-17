@@ -1,32 +1,58 @@
-import React from 'react';
-import cook from '../../assets/chief_1.jpg';
-import chef from '../../assets/kokoro-1.jpg';
-import chef1 from '../../assets/kokoro-2.jpg';
-import chef2 from '../../assets/kokoro-3.jpg';
-import chef3 from '../../assets/kokoro-4.jpg';
+import React from "react";
+import cook from "../../assets/chief_1.jpg";
+import chef from "../../assets/kokoro-1.jpg";
+import chef1 from "../../assets/kokoro-2.jpg";
+import chef2 from "../../assets/kokoro-3.jpg";
+import chef3 from "../../assets/kokoro-4.jpg";
 
 const Chef = () => {
-    return (
-        <div>
-            <div className='md:grid grid-cols-3 gap-10 w-11/12 mx-auto my-5'>
-                <div>
-                    <img className='rounded-md' src={cook} alt="" />
-                </div>
-                <div className='col-span-2 mt-5'>
-                    <h3 className='text-center font-bold text-3xl mb-5 Kurale'>Chef of sushi mol</h3>
-                    <p>The chefs and staff at <span className='text-red-500'>Kokoro Sushi Mol</span> are always there for you, let us surprise you with our delicious range of freshly prepared sushi and sashimi, we are delighted to welcome you as a customer!</p>
-                </div>
-            </div>
-            <div className='mt-10'>
-                <h3 className='text-center font-bold capitalize text-2xl Kurale'>Our sushi Mol Gallery</h3>
-                <div className='mt-7 md:grid grid-cols-4 gap-5 md:px-8 md:mb-12 mb-5'>
-                    <img className='h-60 w-full shadow-lg rounded-md shadow-slate-400' src={chef} alt="" />
-                    <img className='h-60 w-full shadow-lg rounded-md shadow-slate-400' src={chef1} alt="" />
-                    <img className='h-60 w-full shadow-lg rounded-md shadow-slate-400' src={chef2} alt="" />
-                    <img className='h-60 w-full shadow-lg rounded-md shadow-slate-400' src={chef3} alt="" />
-                </div>
-            </div>
-            {/* <div className="mt-10 border-t-8 border-red-500 bg-black">
+  return (
+    <div>
+      <div className="md:grid grid-cols-4 lg:grid-cols-3 gap-10 w-11/12 mx-auto my-5">
+        <div className="md:col-span-2 lg:col-span-1">
+          <img className="rounded-md" src={cook} alt="" />
+        </div>
+        <div className="col-span-2 mt-5">
+          <h3 className="text-center font-bold text-3xl mb-5 Kurale">
+            Chef of sushi mol
+          </h3>
+          <p>
+            The chefs and staff at{" "}
+            <span className="text-red-500">Kokoro Sushi Mol</span> are always
+            there for you, let us surprise you with our delicious range of
+            freshly prepared sushi and sashimi, we are delighted to welcome you
+            as a customer!
+          </p>
+        </div>
+      </div>
+      <div className="mt-10">
+        <h3 className="text-center font-bold capitalize text-2xl Kurale">
+          Our sushi Mol Gallery
+        </h3>
+        <div className="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:px-8 md:mb-12 mb-5 px-5">
+          <img
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            src={chef}
+            alt=""
+          />
+          <img
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            src={chef1}
+            alt=""
+          />
+          <img
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            src={chef2}
+            alt=""
+          />
+          <img
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            src={chef3}
+            alt=""
+          />
+        </div>
+      </div>
+      {/* <div className="mt-10 border-t-8 border-red-500 bg-black">
                 <div className="md:grid grid-cols-2 ">
                     <div>
                         <h3 className="text-white font-bold text-center text-2xl mt-5">OPENING HOUR</h3>
@@ -92,8 +118,8 @@ const Chef = () => {
                     <a className="w-10 h-10 md:w-20 md:h-20" href="#" target="_blank" rel="noopener noreferrer"><img src={uber} alt="" /></a>
                 </div>
             </div> */}
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Chef;

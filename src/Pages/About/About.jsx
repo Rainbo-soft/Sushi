@@ -6,8 +6,8 @@ import img2 from "../../assets/about us 3.jpg";
 const About = () => {
   return (
     <div>
-      <div className="md:grid grid-cols-2 gap-5 mt-3">
-        <div className="flex flex-col justify-center md:ml-20 md:mt-10">
+      <div className="lg:grid grid-cols-2 gap-5 mt-3">
+        <div className="flex flex-col justify-center lg:ml-20 px-5 lg:px-0 md:mt-10">
           <h1 className="font-bold text-center text-5xl capitalize Kurale">
             About Us
           </h1>
@@ -52,17 +52,15 @@ const About = () => {
             Come try it today. You won't be disappointed!
           </h3>
         </div>
-        <div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+        <div className="hidden lg:block">
+          <img src={img} alt="" />
         </div>
       </div>
-      <div className="md:grid grid-cols-2 gap-5 mt-5">
-        <div className="md:pl-10">
+      <div className="flex flex-col-reverse lg:grid grid-cols-2 gap-5 mt-5">
+        <div className="lg:pl-10 flex items-center justify-center px-5 lg:px-0">
           <img src={img1} alt="" />
         </div>
-        <div>
+        <div className="px-5">
           <h1 className="text-center font-bold text-4xl mb-3 Kurale">
             King of sushi
           </h1>

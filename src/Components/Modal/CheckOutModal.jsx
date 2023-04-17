@@ -9,7 +9,7 @@ const Modal = ({ closeCheckOutModal, showCheckOutModal }) => {
     <div>
       {showCheckOutModal && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-10 text-[#050f2c]">
-          <div className="bg-[#E5E7EB] shadow-md rounded mb-4 min-w-[700px]">
+          <div className="bg-[#E5E7EB] shadow-md rounded mb-4 md:min-w-[700px]">
             <div className="absolute top-0 left-0 w-full h-full -z-10 bg-black opacity-50"></div>
             <div className="w-full h-[500px]">
               <div className="flex items-center justify-between w-full px-5 py-3 border-b border-red-800">
@@ -25,7 +25,7 @@ const Modal = ({ closeCheckOutModal, showCheckOutModal }) => {
                 </button>
               </div>
               <div className="w-full py-2 px-5">
-                <ul className="flex justify-around w-full items-center text-xl font-semibold">
+                <ul className="flex justify-around w-full items-center text-xl font-semibold gap-2">
                   <li className="max-w-2xl">Name</li>
                   <li className="max-w-2xl">Quantity</li>
                   <li className="max-w-2xl">Price</li>

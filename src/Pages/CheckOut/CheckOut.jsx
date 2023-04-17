@@ -3,15 +3,15 @@ import React from "react";
 const CheckOut = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <h1 className="Kurale text-3xl font-semibold">CheckOut</h1>
-      <div className="my-14 flex justify-evenly">
-        <div>
-          <h1 className="Kurale text-3xl font-semibold tracking-wider">
+      <h1 className="Kurale text-3xl font-semibold ml-6 md:ml-0">CheckOut</h1>
+      <div className="my-14 flex-col-reverse lg:flex-row flex items-center justify-center lg:justify-evenly">
+        <div className="mt-10 md:mt-0">
+          <h1 className="Kurale text-3xl font-semibold tracking-wider ml-6 md:ml-0">
             Billing Details
           </h1>
-          <form className="mt-5">
-            <div>
-              <select className="p-2 border border-red-500 rounded-sm focus:outline-none w-56">
+          <form className="mt-5 px-5 md:px-0">
+            <div className="my-2 md:space-x-2 space-y-2 md:space-y-0">
+              <select className="p-2 border border-red-500 rounded-sm focus:outline-none md:w-56 w-full">
                 <option value="Afghanistan +93">Afghanistan +93</option>
                 <option value="Albania +355">Albania +355</option>
                 <option value="Bangladesh +880">Bangladesh +880</option>
@@ -26,35 +26,35 @@ const CheckOut = () => {
               <input
                 type="number"
                 placeholder="Phone Number"
-                className="border border-red-500 rounded-sm p-2 focus:outline-none w-56 ml-2"
+                className="border border-red-500 rounded-sm p-2 focus:outline-none  md:w-56 w-full"
               />
             </div>
-            <div className="my-2 space-x-2">
+            <div className="my-2 md:space-x-2 space-y-2 md:space-y-0">
               <input
                 type="text"
-                className="border border-red-500 rounded-sm py-2 px-1 w-56 focus:outline-none"
+                className="border border-red-500 rounded-sm py-2 px-1  md:w-56 w-full focus:outline-none"
                 placeholder="First Name"
               />
               <input
                 type="text"
-                className="border border-red-500 rounded-sm py-2 px-1 w-56 focus:outline-none"
+                className="border border-red-500 rounded-sm py-2 px-1 md:w-56 w-full  focus:outline-none"
                 placeholder="Last Name"
               />
             </div>
-            <div className="my-2 space-x-2">
+            <div className="my-2 md:space-x-2 space-y-2 md:space-y-0">
               <input
                 type="text"
-                className="border border-red-500 rounded-sm py-2 px-1 w-56 focus:outline-none"
+                className="border border-red-500 rounded-sm py-2 px-1 md:w-56 w-full focus:outline-none"
                 placeholder="Address"
               />
               <input
                 type="email"
-                className="border border-red-500 rounded-sm py-2 px-1 w-56 focus:outline-none"
+                className="border border-red-500 rounded-sm py-2 px-1 md:w-56 w-full focus:outline-none"
                 placeholder="Email for Update"
               />
             </div>
-            <div className="my-2 space-x-2">
-              <select className="p-2 border border-red-500 rounded-sm focus:outline-none w-56">
+            <div className="my-2 md:space-x-2 space-y-2 md:space-y-0">
+              <select className="p-2 border border-red-500 rounded-sm focus:outline-none md:w-56 w-full ">
                 <option value="Austin">Austin</option>
                 <option value="San Francisco">San Francisco</option>
                 <option value="New York">New York</option>
@@ -66,13 +66,13 @@ const CheckOut = () => {
               </select>
               <input
                 type="number"
-                className="border border-red-500 rounded-sm py-2 px-1 w-56 focus:outline-none"
+                className="border border-red-500 rounded-sm py-2 px-1 md:w-56 w-full focus:outline-none"
                 placeholder="Postal Code"
               />
             </div>
-            <div className="my-2 space-x-2 flex items-start ">
+            <div className="my-2 md:space-x-2 md:flex items-start  space-y-2 md:space-y-0">
               <div className="flex flex-col items-start">
-                <select className="p-2 border border-red-500 rounded-sm focus:outline-none">
+                <select className="p-2 border border-red-500 rounded-sm focus:outline-none md:w-56 w-full ">
                   <option value="Afghanistan">Afghanistan</option>
                   <option value="Albania">Albania</option>
                   <option value="Bangladesh">Bangladesh</option>
@@ -84,16 +84,19 @@ const CheckOut = () => {
                     United States of America
                   </option>
                 </select>
-                <button className="mt-5 px-3 py-2 bg-red-500 rounded-md text-white text-lg font-semibold w-full">
+                <button className="mt-5 px-3 py-2 bg-red-500 rounded-md text-white text-lg font-semibold w-full hidden md:block">
                   Submit
                 </button>
               </div>
               <textarea
-                className="border border-red-500 w-56 p-2 focus:outline-none"
+                className="border border-red-500 md:w-56 w-full p-2 focus:outline-none"
                 placeholder="Leave a note (Optional)"
                 rows="5"
               ></textarea>
             </div>
+            <button className="mt-5 px-3 py-2 bg-red-500 rounded-md text-white text-lg font-semibold w-full md:hidden">
+              Submit
+            </button>
           </form>
         </div>
         <div>

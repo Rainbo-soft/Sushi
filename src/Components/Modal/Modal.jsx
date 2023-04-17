@@ -7,7 +7,7 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
     <div>
       {showModal && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-10 text-[#050f2c]">
-          <div className="bg-white shadow-md rounded mb-4 min-w-[700px]">
+          <div className="bg-white shadow-md rounded mb-4 md:min-w-[700px]">
             <div className="absolute top-0 left-0 w-full h-full -z-10 bg-black opacity-50"></div>
             <div className="flex flex-col items-center justify-center relative w-full">
               <button
@@ -16,7 +16,7 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
               >
                 <RxCross1 />
               </button>
-              <div className="flex items-center justify-between relative px-8 pt-6 pb-8 mb-4 gap-10 w-full">
+              <div className="md:flex items-center justify-between relative px-8 pt-6 pb-8 mb-4 gap-10 max-h-[450px] overflow-auto w-full">
                 <div>
                   <div className="flex items-center justify-center">
                     <AiOutlineShoppingCart className="text-2xl text-red-500 mr-1" />
@@ -72,7 +72,7 @@ const Modal = ({ closeModal, showModal, GetItems }) => {
                     </div>
                   </div>
                   <button
-                    className="text-sm bg-red-500 px-3 py-1 text-white rounded-md"
+                    className="text-sm bg-red-500 px-3 py-1 text-white rounded-md hidden md:block"
                     onClick={closeModal}
                   >
                     Close
