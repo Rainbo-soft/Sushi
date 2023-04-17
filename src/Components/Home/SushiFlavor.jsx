@@ -8,7 +8,7 @@ const SushiFlavor = () => {
         <h1 className="text-3xl text-[#050f2c] font-semibold mb-10 Kurale">
           Delicious Sushi that Adds Flavor to Your Diet
         </h1>
-        <p>
+        <p className="text-justify md:text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cumque
           officia eos blanditiis itaque molestias accusamus, eum tempore quas
           perspiciatis. In, deleniti ut quo tempore aliquid sint minima sed
@@ -17,7 +17,7 @@ const SushiFlavor = () => {
           similique excepturi illo!
         </p>
         <br />
-        <p>
+        <p className="text-justify md:text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cumque
           officia eos blanditiis itaque molestias accusamus, eum tempore quas
           perspiciatis. In, deleniti ut quo tempore aliquid sint minima sed
@@ -26,7 +26,7 @@ const SushiFlavor = () => {
           similique excepturi illo!
         </p>
         <br />
-        <p>
+        <p className="text-justify md:text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cumque
           officia eos blanditiis itaque molestias accusamus, eum tempore quas
           perspiciatis. In, deleniti ut quo tempore aliquid sint minima sed
@@ -35,7 +35,7 @@ const SushiFlavor = () => {
           similique excepturi illo!
         </p>
       </div>
-      <div className="flex items-center justify-start p-6 mt-8 mr-14 lg:mt-0">
+      <div className="hidden lg:flex items-center justify-start p-6 mt-8 mr-14 lg:mt-0">
         <img src={image} alt="" className="object-cover max-h-[550px]" />
       </div>
     </div>

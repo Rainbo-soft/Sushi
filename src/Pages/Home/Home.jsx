@@ -39,7 +39,7 @@ const Home = () => {
       <SushiFlavor />
       <Deliver />{" "}
       <div
-        className="fixed bottom-12 right-12 p-4 bg-red-500 text-white text-3xl rounded-full shadow-lg flex items-center justify-center cursor-pointer"
+        className="fixed bottom-12 right-12 p-4 bg-red-500 text-white text-3xl rounded-full shadow-lg flex items-center justify-center cursor-pointer z-20"
         onClick={() => {
           setShowCheckOutModal(true);
         }}

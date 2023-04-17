@@ -5,11 +5,13 @@ const Banner = () => {
   return (
     <div className="max-w-6xl mx-auto px-5 lg:px-0 md:flex justify-between items-center py-10">
       <div className="flex flex-col md:items-start items-center w-64 md:w-auto mx-auto md:mx-0 gap-3">
-        <h1 className="Kurale text-3xl md:text-5xl text-[#050f2c]">
+        <h1 className="Kurale text-3xl md:text-3xl lg:text-5xl text-[#050f2c]">
           Beste sushi op Mol
         </h1>
-        <p className="md:text-lg text-sm text-center md:text-start text-[#ed1b2e]">
-          ALS U VAN DE WEBSITE BESTELT, KRIJGT U EEN CADEAU
+        <p className="lg:text-lg text-sm text-center md:text-start text-[#ed1b2e]">
+          Lorem, ipsum dolor sit amet consectetur
+          <br className="hidden md:block lg:hidden" />
+          adipisicing elit. Ipsam, officiis.
         </p>
         <button className="uppercase text-sm md:text-lg px-3 text-white py-2 font-semibold tracking-wider bg-red-500 rounded-md">
           Order Now

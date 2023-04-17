@@ -21,7 +21,7 @@ const Footer = () => {
         <p className="text-2xl text-center mb-8 font-bold underline underline-offset-8 Kurale">
           Opening Hour
         </p>
-        <ul className="flex items-center justify-around text-xl font-semibold">
+        <ul className="px-5 space-y-3 lg:space-y-0 lg:flex items-center justify-around text-xl font-semibold">
           <li>
             <p>MONDAY</p>
             <p className="bg-white text-black px-3 py-2 rounded-md">
