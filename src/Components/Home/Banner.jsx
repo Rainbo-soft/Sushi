@@ -8,16 +8,16 @@ const Banner = () => {
         <h1 className="Kurale text-3xl md:text-3xl lg:text-5xl text-[#050f2c]">
           Beste sushi op Mol
         </h1>
-        <p className="lg:text-lg text-sm text-center md:text-start text-[#ed1b2e]">
-          Lorem, ipsum dolor sit amet consectetur
-          <br className="hidden md:block lg:hidden" />
-          adipisicing elit. Ipsam, officiis.
+        <p className="lg:text-lg text-sm text-center md:text-start text-[#ed1b2e] mb-4 max-w-xl">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
+          reprehenderit quibusdam odio similique accusantium quae facilis minus
+          dignissimos enim cupiditate.
         </p>
         <button className="uppercase text-sm md:text-lg px-3 text-white py-2 font-semibold tracking-wider bg-red-500 rounded-md">
           Order Now
         </button>
       </div>
-      <div className="relative w-80 h-80 overflow-hidden">
+      <div className="relative w-80 h-80 overflow-hidden mx-auto md:mx-0">
         <div className="absolute inset-0">
           <svg viewBox="0 0 100 100" className="w-full h-full">
             <defs>

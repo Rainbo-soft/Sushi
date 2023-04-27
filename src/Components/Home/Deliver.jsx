@@ -8,9 +8,10 @@ const Deliver = () => {
         <img src={image} alt="" className="object-cover max-h-[550px]" />
       </div>
       <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-3xl lg:text-left">
-        <h1 className="text-3xl text-[#050f2c] font-semibold mb-10 Kurale">
+        <h1 className="text-3xl md:text-3xl lg:text-4xl text-[#050f2c] mb-3 Kurale">
           Health and Taste Delivered to Your Home
         </h1>
+        <h4 className="mb-10 text-lg font-semibold">Fast Deliver</h4>
         <p className="text-justify md:text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cumque
           officia eos blanditiis itaque molestias accusamus, eum tempore quas
@@ -37,6 +38,11 @@ const Deliver = () => {
           assumenda recusandae voluptatum debitis id ullam. Dicta iste aut
           similique excepturi illo!
         </p>
+        <div className="mt-4">
+          <button className="uppercase text-sm md:text-base px-3 text-white py-2 font-semibold tracking-wider bg-red-500 rounded-md">
+            Read More
+          </button>
+        </div>
       </div>
     </div>
   );

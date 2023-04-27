@@ -17,11 +17,9 @@ const Chef = () => {
             Chef of sushi mol
           </h3>
           <p>
-            The chefs and staff at{" "}
-            <span className="text-red-500">Kokoro Sushi Mol</span> are always
-            there for you, let us surprise you with our delicious range of
-            freshly prepared sushi and sashimi, we are delighted to welcome you
-            as a customer!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            doloribus dignissimos, fuga ipsum cum, cumque sunt esse quasi culpa
+            accusantium voluptate quas maiores dolores provident.
           </p>
         </div>
       </div>
