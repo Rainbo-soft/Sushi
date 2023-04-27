@@ -19,7 +19,7 @@ import image16 from "../../assets/Hosomaki-avocado.avif";
 const CategoryItems = ({ setShowModal, setGetItems }) => {
   const Fruits = [
     {
-      category: "VOORGERECHTEN",
+      category: "Voorgerechten",
       Items: [
         {
           name: "Wakame",
@@ -44,7 +44,7 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
       ],
     },
     {
-      category: "CRISPY ROLL",
+      category: "Crispy Roll",
       Items: [
         {
           name: "Deep Fried Dragon Eyes",
@@ -69,7 +69,7 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
       ],
     },
     {
-      category: "HANDROLL TEMAKI",
+      category: "Handroll Temaki",
       Items: [
         {
           name: "Zalm avocado temaki",
@@ -94,7 +94,7 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
       ],
     },
     {
-      category: "HOSOMAKI 6 ST.",
+      category: "Hosomaki 6 st.",
       Items: [
         {
           name: "Hosomaki tonijn",
@@ -123,7 +123,7 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
     <div>
       {Fruits.map((fruit) => (
         <>
-          <h1 className="text-center text-4xl Kurale font-semibold tracking-wide text-red-500 mt-24 mb-7">
+          <h1 className="text-center text-3xl Kurale capitalize tracking-wide text-red-500 my-14">
             {fruit.category}
           </h1>
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-5 px-5">

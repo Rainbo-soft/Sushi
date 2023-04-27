@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <div className="lg:grid grid-cols-2 gap-5 mt-3">
         <div className="flex flex-col justify-center lg:ml-20 px-5 lg:px-0 md:mt-10">
-          <h1 className="font-bold text-center text-5xl capitalize Kurale">
+          <h1 className="font-bold text-center  text-3xl md:text-4xl lg:text-5xl  capitalize Kurale">
             About Us
           </h1>
           <p className="border-b border-gray-400 pb-3 mt-3">
@@ -61,7 +61,7 @@ const About = () => {
           <img src={img1} alt="" />
         </div>
         <div className="px-5">
-          <h1 className="text-center font-bold text-4xl mb-3 Kurale">
+          <h1 className="text-center font-bold text-3xl md:text-4xl mb-3 Kurale">
             King of sushi
           </h1>
           <p>
@@ -98,16 +98,16 @@ const About = () => {
         </div>
       </div>
       <div className="mt-10 md:w-11/12 mx-auto">
-        <h1 className="text-center font-bold text-5xl Kurale leading-tight">
+        <h1 className="text-center font-bold text-3xl md:text-4xl lg:text-5xl Kurale leading-tight">
           The perfect place for
           <br />
           your group dinners and events
         </h1>
         <p className="mt-5 text-center leading-6">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          <br />
+          <br className="hidden md:block lg:hidden" />
           Consequuntur, veritatis? Aliquid adipisci eveniet dignissimos ex.
-          Incidunt <br />
+          Incidunt <br className="hidden md:block lg:hidden" />
           ipsam doloremque dolorum ab!
         </p>
       </div>
