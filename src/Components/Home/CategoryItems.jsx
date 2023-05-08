@@ -126,13 +126,13 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
           <h1 className="text-center text-3xl Kurale capitalize tracking-wide text-red-500 my-14">
             {fruit.category}
           </h1>
-          <div className="max-w-6xl mx-auto grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-5 px-5">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-8 px-5">
             {fruit.Items.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center h-[265px] lg:w-[265px] from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br rounded-xl"
+                className="flex items-center justify-center h-[265px] lg:w-[265px] from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br rounded-sm"
               >
-                <div className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group h-full w-full">
+                <div className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-sm relative group h-full w-full">
                   <div className="rounded-xl  transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end z-10">
                     <div className="">
                       <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">

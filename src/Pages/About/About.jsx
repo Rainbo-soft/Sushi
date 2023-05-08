@@ -1,7 +1,7 @@
 import React from "react";
-import img from "../../assets/about us 1.jpg";
-import img1 from "../../assets/about us 2.jpg";
-import img2 from "../../assets/about us 3.jpg";
+// import img from "../../assets/";
+// import img1 from "../../assets/about us 2.jpg";
+// import img2 from "../../assets/about us 3.jpg";
 
 const About = () => {
   return (
@@ -53,12 +53,12 @@ const About = () => {
           </h3>
         </div>
         <div className="hidden lg:block">
-          <img src={img} alt="" />
+          {/* <img src={img} alt="" /> */}
         </div>
       </div>
       <div className="flex flex-col-reverse lg:grid grid-cols-2 gap-5 mt-5">
         <div className="lg:pl-10 flex items-center justify-center px-5 lg:px-0">
-          <img src={img1} alt="" />
+          {/* <img src={img1} alt="" /> */}
         </div>
         <div className="px-5">
           <h1 className="text-center font-bold text-3xl md:text-4xl mb-3 Kurale">
@@ -112,7 +112,7 @@ const About = () => {
         </p>
       </div>
       <div className="mt-5">
-        <img src={img2} alt="" />
+        {/* <img src={img2} alt="" /> */}
       </div>
     </div>
   );
