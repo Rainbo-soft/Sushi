@@ -56,7 +56,7 @@ const About = () => {
           {/* <img src={img} alt="" /> */}
         </div>
       </div>
-      <div className="flex flex-col-reverse lg:grid grid-cols-2 gap-5 mt-5">
+      <div className="flex flex-col-reverse lg:grid grid-cols-2 gap-5 mt-24">
         <div className="lg:pl-10 flex items-center justify-center px-5 lg:px-0">
           {/* <img src={img1} alt="" /> */}
         </div>
@@ -97,7 +97,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="mt-10 md:w-11/12 mx-auto">
+      <div className="mt-24 md:w-11/12 mx-auto">
         <h1 className="text-center font-bold text-3xl md:text-4xl lg:text-5xl Kurale leading-tight">
           The perfect place for
           <br />

@@ -8,7 +8,7 @@ import chef3 from "../../assets/kokoro-4.jpg";
 const Chef = () => {
   return (
     <div>
-      <div className="md:grid grid-cols-4 lg:grid-cols-3 gap-10 w-11/12 mx-auto my-5">
+      <div className="md:grid grid-cols-4 lg:grid-cols-3 gap-10 w-11/12 mx-auto my-36">
         <div className="md:col-span-2 lg:col-span-1">
           <img className="rounded-sm" src={cook} alt="" />
         </div>
@@ -27,24 +27,24 @@ const Chef = () => {
         <h3 className="text-center font-bold capitalize text-2xl Kurale">
           Our sushi Mol Gallery
         </h3>
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:px-8 md:mb-12 mb-5 px-5">
+        <div className="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:px-8 md:mb-12 mb-5 px-5">
           <img
-            className="h-60 w-full ease-in-out duration-300 hover:scale-105 hover:shadow-lg hover:rounded-md shadow-slate-400"
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
             src={chef}
             alt=""
           />
           <img
-            className="h-60 w-full ease-in-out duration-300 hover:scale-105 hover:shadow-lg hover:rounded-md shadow-slate-400"
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
             src={chef1}
             alt=""
           />
           <img
-            className="h-60 w-full ease-in-out duration-300 hover:scale-105 hover:shadow-lg hover:rounded-md shadow-slate-400"
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
             src={chef2}
             alt=""
           />
           <img
-            className="h-60 w-full hover:shadow-lg hover:scale-105 hover:rounded-md ease-in-out duration-300 shadow-slate-400"
+            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
             src={chef3}
             alt=""
           />

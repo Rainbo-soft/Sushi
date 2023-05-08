@@ -132,14 +132,14 @@ const CategoryItems = ({ setShowModal, setGetItems }) => {
                 key={index}
                 className="flex items-center justify-center h-[265px] lg:w-[265px] from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br rounded-sm"
               >
-                <div className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-sm relative group h-full w-full">
+                <div className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group h-full w-full">
                   <div className="rounded-xl  transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end z-10">
                     <div className="">
                       <div className="transform-gpu p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
                         <div className="font-bold">{item.name}</div>
                         <div className=" text-sm">
                           <button
-                            className="uppercase text-sm md:text-base tracking-wider px-3 text-white py-2 font-semibold bg-red-500 rounded-md"
+                            className="uppercase text-sm md:text-base tracking-wider px-3 text-white py-2 font-semibold bg-red-500 rounded"
                             onClick={() => {
                               setShowModal(true);
                               setGetItems(item);

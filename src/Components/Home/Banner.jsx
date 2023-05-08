@@ -7,6 +7,8 @@ const Banner = () => {
       <div className="flex flex-col md:items-start items-center w-64 md:w-auto mx-auto md:mx-0 gap-3">
         <h1 className="Kurale text-3xl md:text-3xl lg:text-5xl text-[#050f2c]">
           Best of sushi
+          Best sushi Forever
+
         </h1>
         <p className="lg:text-lg text-sm text-center md:text-start text-[#ed1b2e] mb-4 max-w-xl">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
