@@ -27,24 +27,24 @@ const Chef = () => {
         <h3 className="text-center font-bold capitalize text-2xl Kurale">
           Our sushi Mol Gallery
         </h3>
-        <div className="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:px-8 md:mb-12 mb-5 px-5">
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:px-8 md:mb-12 mb-5 px-5">
           <img
-            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            className="h-60 w-full hover:shadow-lg hover:rounded-md hover:scale-105 ease-in-out duration-300 shadow-slate-400"
             src={chef}
             alt=""
           />
           <img
-            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            className="h-60 w-full hover:shadow-lg hover:rounded-md hover:scale-105 ease-in-out duration-300 shadow-slate-400"
             src={chef1}
             alt=""
           />
           <img
-            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            className="h-60 w-full hover:shadow-lg hover:rounded-md hover:scale-105 ease-in-out duration-300 shadow-slate-400"
             src={chef2}
             alt=""
           />
           <img
-            className="h-60 w-full shadow-lg rounded-md shadow-slate-400"
+            className="h-60 w-full hover:shadow-lg hover:rounded-md hover:scale-105 ease-in-out duration-300 shadow-slate-400"
             src={chef3}
             alt=""
           />
